@@ -1,4 +1,4 @@
-/*-------@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Quicksand:wght@300&display=swap');--------*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Quicksand:wght@300&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand');
 @import url('https://fonts.googleapis.com/css2?family=Righteous');
@@ -140,6 +140,7 @@ html,body {
 
 .menu {
 	background: white;
+	float: left;
 	width: 270px;
 	height: 635px;
 	position: absolute;
@@ -406,7 +407,7 @@ html,body {
 	transform: translate(-50%, -50%);
 }
 
-.faq {
+.contact {
 	width: 250px;
 	height: 70px;
 	background: navajowhite;
@@ -418,13 +419,13 @@ html,body {
 	transform: translate(-50%, -50%);
 }
 
-.faq:hover {
+.contact:hover {
 	background: rgba(0, 0, 0, 0.2);
 	border-bottom: 4px solid rgba(0, 0, 0, 0.3);
 	transition: 0.3s ease;
 }
 
-.faq a {
+.contact a {
 	color: black;
 	text-decoration: none;
 	font-size: 20px;
@@ -434,7 +435,7 @@ html,body {
 	font-family: 'Monstserrat', fantasy;
 }
 
-.faq i {
+.contact i {
 	color: black;
 	position: absolute;
 	top: 52%;
